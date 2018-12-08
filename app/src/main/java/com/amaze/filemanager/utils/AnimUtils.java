@@ -46,7 +46,7 @@ public class AnimUtils {
     public static void marqueeAfterDelay(int delayInMillis, ThemedTextView marqueeView) {
         new Handler().postDelayed(() -> {
             // marquee works only when text view has focus
-            marqueeView.setSelected(true);
+                marqueeView.setSelected(true);
         }, delayInMillis);
     }
 }

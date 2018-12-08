@@ -299,7 +299,7 @@ public class CompressedExplorerAdapter extends RecyclerView.Adapter<CompressedIt
     @Override
     public void onViewAttachedToWindow(CompressedItemViewHolder holder) {
         super.onViewAttachedToWindow(holder);
-        AnimUtils.marqueeAfterDelay(2000, holder.txtTitle);
+        //AnimUtils.marqueeAfterDelay(2000, holder.txtTitle);
     }
 
     @Override

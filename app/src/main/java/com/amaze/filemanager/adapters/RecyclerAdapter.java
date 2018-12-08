@@ -282,10 +282,10 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
     @Override
     public void onViewAttachedToWindow(RecyclerView.ViewHolder holder) {
         super.onViewAttachedToWindow(holder);
-        if (holder instanceof ItemViewHolder) {
-            AnimUtils.marqueeAfterDelay(2000, ((ItemViewHolder) holder).txtTitle);
-        }
-        super.onViewAttachedToWindow(holder);
+        //if (holder instanceof ItemViewHolder) {
+        //    AnimUtils.marqueeAfterDelay(2000, ((ItemViewHolder) holder).txtTitle);
+        //}
+        //super.onViewAttachedToWindow(holder);
     }
 
     @Override

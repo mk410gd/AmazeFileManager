@@ -17,4 +17,5 @@ public class UtilsTest {
         assertEquals("an apple",sanitizeInput("an ...apple"));  //test the removing of dots which are between two words.
         assertEquals("an apple.",sanitizeInput(";an |apple...."));  //test the removing of pipe sign and dots which are between two words. And test the fourth dot is not removed.
     }
+
 }

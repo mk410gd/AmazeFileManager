@@ -126,7 +126,7 @@ public class AppsAdapter extends ArrayAdapter<AppDataParcelable> {
             showPopup(holder.about, rowItem);
         }
         holder.txtTitle.setText(rowItem.label);
-        AnimUtils.marqueeAfterDelay(2000, holder.txtTitle);
+        //AnimUtils.marqueeAfterDelay(2000, holder.txtTitle);
 
         //	File f = new File(rowItem.getDesc());
         holder.txtDesc.setText(rowItem.fileSize);
